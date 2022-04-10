@@ -1,5 +1,7 @@
 # Routing
-Showcases examples of routing using `express()` and `express.Router()`
+Showcases examples of routing using `express()` and `express.Router()`.
+Routes behind `/api` are in `api/routes.js` and routes behind `/admin`
+are in `admin/routes.js`.
 
 ## Install
 `npm i`
@@ -13,4 +15,3 @@ Showcases examples of routing using `express()` and `express.Router()`
 `curl -X DELETE http://localhost:3000/test`
 `curl http://localhost:3000/api/test`
 `curl http://localhost:3000/admin/test`
-
